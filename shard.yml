@@ -1,0 +1,17 @@
+name: giraffe
+version: 0.1.0
+
+authors:
+  - Jason Goldberger <jlgoldb2@asu.edu>
+
+targets:
+  giraffe:
+    main: src/giraffe.cr
+
+crystal: 0.20.4
+
+license: MIT
+
+dependencies:
+  immutable:
+    github: lucaong/immutable
